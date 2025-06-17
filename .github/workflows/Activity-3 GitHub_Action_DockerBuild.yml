@@ -10,7 +10,7 @@ on:
 
 jobs:
   LogintodockerhubDEV:
-    runs-on: Self-Hosted
+    runs-on: self-hosted
     environment: DemoDev
     steps:
     - uses: actions/checkout@v3
